@@ -60,7 +60,7 @@
     command: swapoff -a
     when: ansible_swaptotal_mb > 0
 
-Step 2.3: Installing kubelet, kubeadm and kubectl using the below code.
+# Step 2.3: Installing kubelet, kubeadm and kubectl using the below code.
 
   - name: Add an apt signing key for Kubernetes
     apt_key:
