@@ -86,6 +86,7 @@
   - name: Create /etc/default/kubelet file.
     file:
       path: /etc/default/kubelet
+      state: touch
       owner: root
       group: root
       mode: '0644'
