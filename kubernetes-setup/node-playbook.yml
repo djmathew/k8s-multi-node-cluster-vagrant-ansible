@@ -91,7 +91,7 @@
       group: root
       mode: '0644'
 
-  - name: 
+  - name: Configure node ip
     lineinfile:
       path: /etc/default/kubelet
       line: KUBELET_EXTRA_ARGS=--node-ip={{ node_ip }}
