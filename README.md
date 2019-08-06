@@ -6,12 +6,16 @@
 * Vagrant should be installed on your machine. Installation binaries can be found here.
 * Oracle VirtualBox can be used as a Vagrant provider or make use of similar providers as described in Vagrant’s official documentation.
 * Ansible should be installed in your machine. Refer to the Ansible installation guide for platform specific installation.
+* Go through the Vagrantfile and make sure your Workstation has the resources to run 3 VMs (2GB RAM and 2 CPU each)
 ---
 ## Steps
 
 Clone the repository
 ```bash
+# Via
 git clone https://github.com/djmathew/k8s-multi-node-cluster-vagrant-ansible.git
+#OR via SSH
+got clone git@github.com:djmathew/k8s-multi-node-cluster-vagrant-ansible.git
 ```
 Upon cloning the repository with Vagrantfile and playbooks follow the below steps.
 ```bash
